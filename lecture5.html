@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+
+<script type="text/javascript">
+//USING FOR LOOP, WRITE A JS PROGRAM THAT DISPLAYS 1 TO 20
+
+ // for(let i = 1; i <= 20; i++)
+ //     {
+ //         console.log(i);
+ //     }
+
+//JS CODE TO DISPLAY NUMBERS FROM 15 TO 40
+
+// for(let n = 15; n<= 40; n++)
+//     {
+//         console.log(n);
+//     }
+
+//JS CODE TO DISPLAY NUMBERS FROM 50 TO 70
+
+// for(let z = 50; z<= 70; z++)
+//     {
+//         console.log(z);
+//     }
+
+// for(let u = 1; u <= 25; u++){
+//     if(u === 10){
+//         console.log("Ten");
+//     }else if(u === 18){
+//         console.log("U is 18");
+//     }else{
+//         console.log(u);
+//     }
+// }
+
+//JS PROGRAM THAT DESPLAYS EVEN NUMBERS BETWEEN 1 AND 30
+
+// let a = 1;
+// while(a <= 30){
+//     if((a%2) === 0) {
+//         console.log(a);
+//     }
+//     a++;
+// }
+
+//JS PROGRAM THAT DISPLAYS MUTIPLES OF 3 BETWEEN 20 AND 60
+
+// let b = 20;
+// while(b <= 60){
+//     if((b%3) === 0){
+//         console.log(b);
+//     }
+//     b++;
+// }
+
+//WRITE A JS PROGRAM THAT DISPLAYS THE FACTORS OF 40
+
+// for(let f = 1; f<=40; f++) {
+//     if((40 % f) === 0){
+//        console.log(f);
+//     }
+// }
+
+
+// //WRITE A JS PROGRAM THAT PROMPTS THE USER TO ENTER AN INTERGER AND THEN DISPLAYS THE FACTORS OF THE INTEGERS
+// let m = Number(prompt("Enter an INteger"));
+
+// console.log("Factors of " + m);
+// let K = 1;
+
+// while(k <= t) {
+//     if((t%k) ===0 ){
+//         console.log(k);
+//     }
+//     k++
+// }
+
+//A JS PRGRAM THAT PROMPTS THE USER TO ENTER 2 INTEGERS AND THEN DISPLAYS THE SUM OF THE NUMBERS BETWEEN BOTH INTEGERS
+let x = parseint(prompt("Enter first number"));
+let y = parseint(prompt("Enter second number"));
+
+let sum = 0;
+
+if(x < y){
+	alert("The sum of numbers between " + x + " and " + y + " is");
+	while(x <= y){
+		sum = sum + x;
+		x++;
+	}
+	alert(sum);
+}else if(x > y){
+	alert("The sum of numbers between " + y + " and " + x + " is");
+	while(y <= x){
+		sum = sum + y;
+		y++;
+}
+
+ alert(sum);
+ }else{
+ 	alert("Oops!!! Something appears wrong");
+ }
+</script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+
+<script type="text/javascript">
+	
+
+    //STRING SLICING
+
+    let data = "My name is James Babalola. I am from Ogun state";
+    let result = data.length;
+    //alert(result);
+
+    //let r1 = data.slice(3);//RETURNS CHARACTERS FROM POSITION 3 TILL THE END
+    //alert(r1);
+
+    //let r2 = data.slice(11,25);//RETURNSCHARACTERS FROM POSITION 11 TO 24, EXCLUDING 25
+    //alert(r2);
+
+   // alert(data.slice(0,10));//RETURNS THE FIRST 10 CHARACTERS
+     //alert(data.slice(0,25));//RETURNS THE FIRST 25 CHARACTERS
+      //alert(data.slice(15));//RETURNS FROM POSITION 15 TILL THE END
+       //alert(data.slice(10,25));//RETURNS CHARACTERS FROM POSITION 10 T0 25, EXCLUDING 25
+       // alert(data.slice(-20));
+       // alert(data.slice(-20,-6));
+
+       //SUBSTRING
+      //alert(data.substring(11,31)); 
+
+       //SUBSTR
+
+       //alert(data.substr(10,20));//FROM POSITION 10 RETURN THE NEXT 20 CHARACTERS
+       //alert(data.substr(17,10));//FOM POSITION 17, RETURN THE NEXT 10 CHARACTERS
+
+       // let fn = prompt("Enter your firstname");
+       // let mn = prompt("Enter your middlename");
+       // let ln = prompt("Enter your lastname");
+       // let total = (fn.length + mn.length + ln.length);
+       
+       // alert("Your firstname has " + fn.length + " characters");
+       // alert("Your middlename has " + mn.length + " characters");
+       // alert("Your lastname has " + ln.length + " characters");
+       // alert("The total characters of Your names is " + total);
+
+       //WRITE A JS CODE THAT PROMPTS THE USER TO ENTER A COMMENT AND THEN TELLS THE USER
+       //THE TOTAL NUMBER OF CHARACTERS THE COMMENT HAS
+ 
+       let college = prompt("What college do you attend?");
+       alert("The College has " + college.length + " Characters");
+
+       let text = prompt("Type your response here... ");
+
+       if(text.length > 50) {
+       	alert('Your response is out of range');
+       	alert(text.slice(0,50));
+       } else{
+       	alert("Your response is within range");
+       	alert(text);
+       }
+
+
+</script>
+</body>
+</html>

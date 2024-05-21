@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+    //A JS PRGRAM THAT PROMPTS THE USER TO ENTER 2 INTEGERS AND THEN DISPLAYS THE SUM OF THE NUMBERS BETWEEN BOTH INTEGERS
+        let x = parseint(prompt("Enter first number"));
+        let y = parseint(prompt("Enter second number"));
+
+        if (y < z){
+        	while(y <= z){
+        		alert(y);
+        		y++;
+        	}
+        } else if(z < y){
+        	while(z <= y){
+        		alert(z);
+        		z++;
+        	}
+        } else{
+        	alert("There are no range of values to display");
+        }
+
+        let carlist =["Honda", "Kia", "Mercedes", "BMW", "Toyota"];
+//alert(carlist);
+//alert(carlist.length);
+
+// alert("Element with key or index of 3: " + carlist[3]);
+// alert("Element with key or index of 0: " + carlist[0]);
+// alert("Element with key or index of 4: " + carlist[4]);
+
+//ADDING NEW ELEMENTS TO AN ARRAY
+
+carlist.push("Nissan", "Hyundai"); //ADDS NEW ITEM AT THE END OF THE ARRAY
+//alert(carlist);
+
+carlist.unshift("Ford","Innoson"); //ADDS NEW ITEM AT THE START OF THE ARRAY
+ //alert(carlist);
+
+carlist.pop(); //DELETES THE LAST ITEM IN THE ARRAY
+//alert(carlist);
+
+carlist.shift(); //DELETES THE FIRST ITEM IN THE ARRAY
+//alert(carlist);
+
+delete(carlist[4]); //DELETES ITEM IN POSITION 4
+//alert(carlist);
+
+
+let candidateslist = ["Seun", "Tayo", "Bisola", "Segun", "Utzman", "Debola"];
+
+let name = prompt("Enter your firstname");
+
+if(candidateslist.includes(name)){
+    alert("Welcome!!! You are qualified to proceed")
+}else {
+    alert("Big Apologies. We can't let you in");
+}
+let fruit = ["orange", "Cashew", "Pineapple", "Pawpaw", "Berries", "Mango"];
+
+//alert(fruit);
+//alert(fruit.length);
+
+fruit.push("Banana", "Apple", "Cucumber");
+//alert(fruit);
+
+fruit.unshift("Watermelon", "Agbalumo");
+//alert(fruit);
+//alert(fruit.length);
+
+fruit.pop();
+//alert(fruit);
+
+fruit.shift();
+//alert(fruit);
+// alert(fruit.length);
+// alert(fruit[0]);
+
+for(let i = 0; i < fruit.length; i++){
+    console.log(fruit[i]);
+}
+
+
+let colour = ["Red", "Blue", "Green", "Orange", "Black", "White", "Purple", "Yellow", "Grey", "Silver"];
+for(let j = 0; j < colour.length; j++) {
+    console.log(colour[j]);
+}
+let PC = ["Dell", "HP", "Macintosh", "Compaq", "Lenovo", "Toshiba", "Acer", "Zinox", "Cosmos", "IBM"];
+for(let z = 0; z < PC.length; z++){
+    console.log(PC[z]);
+}
+
+const movie = {title:"A Tribe called Judah",
+                producer:"Funke Akindele",
+                director:"Akindele",
+                genre:"Drama",
+                year:2023,
+                duration:"2Hours"
+              }
+
+const student ={
+    firstname:"John",
+    lastname:"Dumelo",
+    gender:"Male",
+    score:{
+        English:"A1",
+        Mathematics:"A1",
+        Physics:"C4",
+        Chemistry:"B2",
+        Biology:"B3"
+    },
+    state:"Ekiti",
+    age:24
+}
+	</script>
+
+</body>
+</html>

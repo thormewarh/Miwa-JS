@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<button class="bt">One</button>
+	<button class="bt">Two</button>
+	<button class="bt">Three</button>
+	<button class="bt">Four</button>
+	<button class="bt">Five</button>
+	<button class="bt">Six</button>
+
+	<script type="text/javascript">
+       //ANONYMOUS FNCTION
+		//document.querySelector(".bt").addEventListener("click", function() {
+			//alert("Oops!!! I have been clicked");
+		// })
+
+		// function clickMe() {
+		// 	alert("Oops!!! I have been clicked");
+		// }
+
+		//ARROW FUNCTION
+		 // document.querySelector(".bt").addEventListener("click", () => {
+		 // 	alert("Oops!!! i have been clicked");
+		 // })
+
+		 let numOfButtons = document.querySelectorAll(".bt").length;
+
+		 for(i=0; i < numOfButtons; i++) {
+			document.querySelectorAll(".bt")[i].addEventListener("click", ()=> {
+				alert("Oh dare!!! I have been clicked");
+		 	})
+		 }
+	</script>
+
+
+</body>
+</html>
